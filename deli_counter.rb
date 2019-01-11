@@ -14,6 +14,7 @@ end
 def take_a_number(deli)
   number = 1
   deli << number
+  number = deli.length + 1
 end
 
 def now_serving(deli)
