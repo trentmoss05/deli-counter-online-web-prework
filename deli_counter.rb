@@ -27,7 +27,12 @@ end
 
 line = []
 take_a_number(line) # [1]
+puts line
 take_a_number(line) # [1,2]
+puts line
 now_serving(line) # [2]
+puts line
 now_serving(line) # []
+puts line
 take_a_number(line) # [3]
+puts line
