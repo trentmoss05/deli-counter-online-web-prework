@@ -14,9 +14,8 @@ end
 $number = 1
 
 def take_a_number(deli)
-  deli << number
-  number += 1
-  puts number
+  deli << $number
+  $number += 1
 end
 
 def now_serving(deli)
