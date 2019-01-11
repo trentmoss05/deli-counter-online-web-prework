@@ -27,7 +27,7 @@ end
 
 line = []
 take_a_number(line) # [1]
-puts line.to_S
+puts line.to_s
 take_a_number(line) # [1,2]
 puts line.to_s
 now_serving(line) # [2]
