@@ -33,6 +33,6 @@ puts line.to_s
 now_serving(line) # [2]
 puts line.to_s
 now_serving(line) # []
-puts line
+puts line.to_s
 take_a_number(line) # [3]
-puts line
+puts line.to_s
