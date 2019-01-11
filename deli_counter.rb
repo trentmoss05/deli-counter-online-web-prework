@@ -11,7 +11,7 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, name)
+def take_a_number(deli)
   deli << name
   puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
@@ -23,3 +23,10 @@ def now_serving(deli)
     puts "Currently serving #{deli.shift}."
   end
 end
+
+line = []
+take_a_number(line) # [1]
+take_a_number(line) # [1,2]
+now_serving(line) # [2]
+now_serving(line) # []
+take_a_number(line) # [3]
