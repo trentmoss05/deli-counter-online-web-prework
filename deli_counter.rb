@@ -31,7 +31,7 @@ puts line.to_s
 take_a_number(line) # [1,2]
 puts line.to_s
 now_serving(line) # [2]
-puts line
+puts line.to_s
 now_serving(line) # []
 puts line
 take_a_number(line) # [3]
