@@ -11,10 +11,9 @@ def line(deli)
   end
 end
 
-$number
+$number = 1
 
 def take_a_number(deli)
-  number = 1
   deli << number
   number += 1
   puts number
