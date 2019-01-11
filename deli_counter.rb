@@ -15,6 +15,7 @@ def take_a_number(deli)
   number = 1
   deli << number
   number += 1
+  puts number
 end
 
 def now_serving(deli)
